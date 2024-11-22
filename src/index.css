@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  -webkit-tap-highlight-color: transparent;
+  touch-action: manipulation;
+}
+
+/* For iOS Safari overscroll effect */
+body {
+  background-color: rgb(249 250 251); /* bg-gray-50 */
+  overscroll-behavior-y: none;
+}
